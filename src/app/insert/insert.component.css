@@ -1,0 +1,11 @@
+.inputText{
+    padding-left: 75px;
+    padding-top:75px;
+    background-color: black;
+}
+.submitButton{
+    margin-right: 60px;
+}
+*{
+    background-color: black;
+}

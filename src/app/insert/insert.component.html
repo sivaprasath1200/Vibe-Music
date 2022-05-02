@@ -1,0 +1,10 @@
+<div *ngIf = "showInsert" class="inputText">
+    Enter name of the song <br><br><input type="text" [(ngModel)] = "newSong.songname"/><br><br>
+    Enter name of the artist <br><br><input type="text" [(ngModel)] = "newSong.artistname"/><br><br>
+    Enter name of the duration <br><br><input type="text" [(ngModel)] = "newSong.duration"/><br><br>
+    <br>
+    <br>
+    <input type="button" class="btn btn-outline-success submitButton" value="Submit" (click)="insert()">
+    <input type="button" class="btn btn-outline-danger" value="Cancel" (click)="dontShowInsert()">
+</div>
+<h2 class="inputText">{{successMessage}}</h2>
